@@ -34,8 +34,8 @@
     .service_item {
         position: relative;
         box-sizing: border-box;
-        float: left \9;
-        margin-right: 17px \9;
+        float: left;
+        margin-right: 17px;
         width: 226px;
         height: 226px;
         text-align: center;
@@ -85,8 +85,12 @@
         }
     }
 
+    .service_active {
+
+    }
+
     .index_page_lead_success_container {
-        height: 550px;
+        height: 580px;
         width: 100%;
         background: #f2f2f2;
         box-sizing: border-box;
@@ -122,11 +126,11 @@
     }
 
     .lead_item {
-        float: left \9;
-        margin-right: 20px \9;
+        float: left;
+        margin-right: 20px;
         position: relative;
         z-index: 100;
-        height: 290px;
+        height: 300px;
         width: 285px;
         background: #fff;
         border-radius: 10px 10px 0 0;
@@ -160,16 +164,16 @@
         margin: 0 auto;
         line-height: 30px;
         text-align: center;
+        overflow: hidden;
         color: #f93556;
-        border: 1px solid #f93556;
+        border: 2px solid #f93556;
         border-radius: 3px;
     }
 
     .match_header_container {
         height: 357px;
         width: 100%;
-        background-image: url('../images/matchBg.jpg');
-        background-repeat: repeat-x;
+        background: url('../images/matchBg.jpg') no-repeat;
     }
 
     .match_header {
@@ -402,6 +406,7 @@
         font-size: 14px;
         color: #d1d1d1;
         text-align: right;
+        margin: 5px 0;
     }
 
     .match_content_right_more {
@@ -413,6 +418,11 @@
         color: #f93556;
         border: 1px solid #f93556;
         border-radius: 3px;
+    }
+
+    .match_content_right_more:hover {
+        background: #f93556;
+        color: #fff;
     }
 
     .index_page_date {
@@ -434,13 +444,32 @@
 
     .index_page_date_list {
         width: 1200px;
-        margin: 0 auto;
+        margin: 50px auto;
     }
 
     .index_page_date_item {
         height: 166px;
         box-sizing: border-box;
         padding: 22px 20px;
+        margin: 0 0 20px 0;
+    }
+
+    .index_page_searchMore {
+        width: 99px;
+        height: 32px;
+        margin: 70px auto;
+        border-radius: 5px;
+        line-height: 32px;
+        text-align: center;
+        font-size: 14px;
+        color: #f93556;
+        border: 1px solid #f93556;
+    }
+
+    .index_page_searchMore:hover {
+        color: #fff;
+        cursor: pointer;
+        background: #f93556;
     }
 
     
@@ -488,9 +517,20 @@
         font-size: 24px;
     }
 
-    .index_page_date_item:hover {
+    .active , 
+    .active .data_content_title, 
+    .active .data_content_desc, 
+    .active .centent_details,
+    .active .index_page_todate,
+    .active .todate_line {
         background: #f93556;
+        color: #fff;
     }
+
+    .active .index_page_todate .arrow {
+        color: #fff;
+    }
+
 
     .index_page_date_item .todate_line {
         width: 2px;
@@ -507,4 +547,64 @@
     }
 
     /* index_page_todate end */
+
+
 }
+
+/* index_page_footer start */
+.index_page_footer {
+    width: 100%;
+    height: 184px;
+    background: #686868;
+}
+
+.index_page_footer .page_footer_body {
+    width: 630px;
+    padding: 27px 0px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+.index_page_footer .page_footer_copy {
+    background: #4d4d4d;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #b2b2b2;
+}
+
+.page_footer_imessage {
+    height: 108px;
+}
+
+.page_footer_imessage .wechat {
+    width: 130px;
+    color: #fff;
+    border-right: 1px dashed #fff;
+}
+
+.page_footer_imessage .wechat span {
+    line-height: 35px;
+}
+
+.page_footer_imessage .imsg_content {
+    margin-left: 50px;
+}
+
+.page_footer_imessage .imsg_content ul li {
+    color: #fff;
+    height: 30px;
+    line-height: 30px;
+    font-weight: 500;
+    margin: 0px 0px 7px;
+    letter-spacing: 0.5px;
+    font-family: '黑体';
+}
+
+.imsg_content ul li .iconfont {
+    font-size: 26px;
+    margin-right: 15px;
+}
+
+/* index_page_footer end */

@@ -23,5 +23,7 @@
     "gulp-useref": "^3.1.2",
     "run-sequence": "^2.1.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "element-ui": "^2.0.11"
+  }
 }

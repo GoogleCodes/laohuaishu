@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>昆明老槐树婚介服务有限公司</title>
+	<meta name=keywords content="">
+  	<meta name=description content="">
 	<link rel="stylesheet" href="css/swiper.min.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/iconfont.css">
 </head>
 <!-- 头部 -->
 <div class="main_header">
@@ -17,7 +19,7 @@
 			<div class="main_header_top_right">
 				<div class="main_header_top_right_content1">寻缘管家：0871-65198586</div>
 				<div class="main_header_top_right_content2">安全中心</div>
-				<a href="">
+				<a href="user/login.html">
 					<div class="main_header_top_right_button">登录</div>
 				</a>
 			</div>
@@ -29,14 +31,28 @@
 			<a href="index.html">
 				<img class="main_header_nav_logo" src="./images/logo.png">
 			</a>
-			<div class="main_header_nav_list">
-				<div class="main_header_nav_item active"><a href="">首页</a></div>
-				<div class="main_header_nav_item"><a href="">秀红线</a></div>
-				<div class="main_header_nav_item"><a href="">牵红线</a></div>
-				<div class="main_header_nav_item"><a href="">格调约会</a></div>
-				<div class="main_header_nav_item"><a href="">喜结良缘</a></div>
-				<div class="main_header_nav_item"><a href="">最新活动</a></div>
-				<div class="main_header_nav_item"><a href="">联系我们</a></div>
+			<div class="main_header_nav_list" id="headrNavList">
+				<div class="main_header_nav_item active">
+					<a href="javascript:void(0);">首页</a>
+				</div>
+				<div class="main_header_nav_item">
+					<a href="javascript:void(0);">秀红线</a>
+				</div>
+				<div class="main_header_nav_item">
+					<a href="javascript:void(0);">牵红线</a>
+				</div>
+				<div class="main_header_nav_item">
+					<a href="javascript:void(0);">格调约会</a>
+				</div>
+				<div class="main_header_nav_item">
+					<a href="javascript:void(0);">喜结良缘</a>
+				</div>
+				<div class="main_header_nav_item">
+					<a href="javascript:void(0);">最新活动</a>
+				</div>
+				<div class="main_header_nav_item">
+					<a href="javascript:void(0);">联系我们</a>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -72,7 +88,7 @@
 		<div class="index_common_title2">服务特色</div>
 		<div class="index_common_title3">为准新人量身定制的择偶方案</div>
 		<div class="service_list clearfix">
-			<div class="service_item">
+			<div class="service_item service_active">
 				<div class="service_item_container">
 					<img class="service_item_img" src="./images/service1.png">
 					<div class="service_item_name1">线下门店</div>
@@ -151,11 +167,10 @@
 				</div>
 			</div>
 
-			<a href="">
-				<div class="lead_more_button">
-					查看更多<i class="iconfont">&#xe603;</i>
-				</div>
-			</a>
+			<div class="lead_more_button">
+				<span>查看更多</span>
+				<i class="iconfont">&#xe603;</i>
+			</div>
 		</div>
 	</div>
 	<!-- 牵线成功 -->
@@ -164,11 +179,13 @@
 	<div class="index_page_match_marriage">
 		<div class="match_header_container">
 			<div class="match_header">
-				<div class="match_header_title">Match marriage</div>
-				<div class="match_header_title2">寻缘管家</div>
-				<div class="match_header_title_hr"></div>
-				<div class="match_header_title3">我们有最优质的服务</div>
-				<img class="match_img" src="./images/match.png">
+				<!--
+					<div class="match_header_title">Match marriage</div>
+					<div class="match_header_title2">寻缘管家</div>
+					<div class="match_header_title_hr"></div>
+					<div class="match_header_title3">我们有最优质的服务</div>
+					<img class="match_img" src="./images/match.png">
+				-->
 			</div>
 		</div>
 
@@ -445,7 +462,24 @@
 	<div class="index_page_date">
 		<div class="index_page_date_title1">Go on a date</div>
 		<div class="index_page_date_title2">格调约会吧</div>
-		<div class="index_page_date_list">
+		<div class="index_page_date_list" id="IDate_list">
+			<div class="index_page_date_item active">
+				<img src="./images/dateItem.jpg" class="fl">
+				<div class="index_page_date_content fl">
+					<div class="data_content">
+						<div class="data_content_title f18">独特风格的约会</div>
+						<div class="data_content_desc f14 clamp_2">在这种地方约会给你不一样的感觉，带有神秘，特殊而愉快的feel。随着音乐的律动，慢慢建立出感，和对方听着喜欢的音乐，增加好感。1</div>
+						<a href="javascript:void(0);" class="f14 centent_details">详情 &gt;</a>
+					</div>
+				</div>
+				<div class="todate_line fl">|</div>
+				<div class="index_page_todate fr">
+					<strong class="todate_day">12-13</strong>
+					<span class="todate_year">2017</span>
+					<i class="iconfont arrow">&#xe603;</i>
+				</div>
+			</div>
+
 			<div class="index_page_date_item">
 				<img src="./images/dateItem.jpg" class="fl">
 				<div class="index_page_date_content fl">
@@ -462,40 +496,82 @@
 					<i class="iconfont arrow">&#xe603;</i>
 				</div>
 			</div>
+
+			<div class="index_page_date_item">
+				<img src="./images/dateItem.jpg" class="fl">
+				<div class="index_page_date_content fl">
+					<div class="data_content">
+						<div class="data_content_title f18">独特风格的约会</div>
+						<div class="data_content_desc f14 clamp_2">在这种地方约会给你不一样的感觉，带有神秘，特殊而愉快的feel。随着音乐的律动，慢慢建立出感，和对方听着喜欢的音乐，增加好感。1</div>
+						<a href="javascript:void(0);" class="f14 centent_details">详情 &gt;</a>
+					</div>
+				</div>
+				<div class="todate_line fl">|</div>
+				<div class="index_page_todate fr">
+					<strong class="todate_day">12-13</strong>
+					<span class="todate_year">2017</span>
+					<i class="iconfont arrow">&#xe603;</i>
+				</div>
+			</div>
+
+		</div>
+		<div class="index_page_searchMore">
+			查看更多 &gt;
 		</div>
 	</div>
 	<!-- 格调约会吧 -->
+
 </div>
+
+<!-- 底部 -->
+<div id="footer"></div>
+<!--
+<div class="index_page_footer">
+	<div class="page_footer_body">
+		<div class="page_footer_imessage">
+			<div class="wechat fl">
+				<img src="./images/wechatcode.png" alt="" class="block">
+				<span>关注公众号</span>
+			</div>
+			<div class="imsg_content fl">
+				<ul>
+					<li class="clearfix">
+						<i class="iconfont fl icon-dianhua"></i>
+						<span class="fl">0871-65198586</span>
+					</li>
+
+					<li class="clearfix">
+						<i class="iconfont fl icon-youjian"></i>
+						<span class="fl">kmlaohuaishu@qq.com</span>
+					</li>
+
+					<li class="clearfix">
+						<i class="iconfont fl icon-weibiaoti-"></i>
+						<span class="fl">龙泉路408号云南财经职业学院兴隆院26栋1单元501号</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="page_footer_copy clearfix">
+		<div style="width: 630px;text-align: left;margin: 0px auto;">
+			昆明老槐树婚介服务有限公司&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;版权所有&copy;2017 - 2018&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;滇ICP备17005284号
+		</div>
+	</div>
+</div>
+-->
+<!-- 底部 -->
 
 <body>
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/swiper.min.js"></script>
 <script src="js/tools.js"></script>
-<script>
-$(document).ready(function () {
-	var mySwiper = new Swiper ('.swiper-container', {
-		loop: true,
-		autoplay: true,
-		pagination: {
-			el: '.swiper-pagination',
-			clickable: true,
-		},
-		navigation: {
-			nextEl: '.swiper-button-next',
-			prevEl: '.swiper-button-prev',
-		},
-	}) 
-
-	$('.match_content_left_content').eq(0).show()
-	$('.match_content_left_header_nav_item').click(function(){
-		$('.match_content_left_header_nav_item').removeClass('active')
-		$(this).addClass('active')
-		var index = $('.match_content_left_header_nav_item').index($(this))
-		console.log(index)
-		$('.match_content_left_content').hide()
-		$('.match_content_left_content').eq(index).fadeIn()
-	})
-})
+<script type="text/javascript">
+	let tools = new ToolsFunction.Tools();
+	tools.swiperBanner();
+	tools.footerElemet();
+	tools.siblingsDom("IDate_list", "index_page_date_item active", "index_page_date_item");
+	tools.siblingsDom("headrNavList", "main_header_nav_item active", "main_header_nav_item");
 </script>
 </body>
 
