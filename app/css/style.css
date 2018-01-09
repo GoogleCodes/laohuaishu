@@ -218,6 +218,7 @@ a, a:hover, a:visited, a:link {
   .index_page .index_page_service_characteristics {
     width: 1200px;
     margin: 0 auto;
+    background: url("../images/img9.png") no-repeat #fff top center;
     padding: 35px 0 88px; }
   .index_page .index_common_title {
     color: #dbdbdb;
@@ -239,7 +240,7 @@ a, a:hover, a:visited, a:link {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    margin-top: 65px; }
+    margin-top: 185px; }
   .index_page .service_item {
     position: relative;
     -webkit-box-sizing: border-box;
@@ -281,7 +282,7 @@ a, a:hover, a:visited, a:link {
   .index_page .index_page_lead_success_container {
     height: 580px;
     width: 100%;
-    background: #f2f2f2;
+    background: url("../images/img7.png") no-repeat #f2f2f2;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     padding: 0 0 22px; }
@@ -306,7 +307,7 @@ a, a:hover, a:visited, a:link {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    margin: 30px 0 27px; }
+    margin: 170px 0 27px; }
   .index_page .lead_item {
     float: left;
     margin-right: 20px;
@@ -518,7 +519,8 @@ a, a:hover, a:visited, a:link {
     background: #f93556;
     color: #fff; }
   .index_page .index_page_date {
-    padding: 1px 0; }
+    padding: 1px 0;
+    background: url("../images/img8.png") no-repeat #f4f4f4 top center; }
   .index_page .index_page_date_title1 {
     font-size: 42px;
     color: #dbdbdb;
@@ -530,7 +532,7 @@ a, a:hover, a:visited, a:link {
     text-align: center; }
   .index_page .index_page_date_list {
     width: 1200px;
-    margin: 50px auto; }
+    margin: 150px auto 50px; }
   .index_page .index_page_date_item {
     height: 166px;
     -webkit-box-sizing: border-box;
@@ -834,3 +836,139 @@ a, a:hover, a:visited, a:link {
           cursor: pointer; }
 
 /* verifi_content end */
+/* pages_register start */
+.pages_register {
+  width: 796px;
+  height: 100%;
+  overflow: hidden;
+  margin: 0px auto 50px; }
+  .pages_register .R_form {
+    width: 695px;
+    margin: 0px auto;
+    overflow: hidden; }
+    .pages_register .R_form .lock_verification {
+      overflow: hidden; }
+      .pages_register .R_form .lock_verification .pages_register_title {
+        color: #686868;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 67px;
+        text-align: center;
+        text-indent: 9em; }
+      .pages_register .R_form .lock_verification .reg_lock_pages {
+        width: 176px; }
+      .pages_register .R_form .lock_verification .reg_lock_input {
+        width: 69%; }
+        .pages_register .R_form .lock_verification .reg_lock_input .field {
+          height: 45px;
+          line-height: 45px; }
+          .pages_register .R_form .lock_verification .reg_lock_input .field .lock_label {
+            width: 18%;
+            color: #686868;
+            font-weight: bold;
+            text-align: right; }
+          .pages_register .R_form .lock_verification .reg_lock_input .field .reg_text {
+            height: 35px;
+            width: 65%;
+            padding-left: 10px;
+            border: none;
+            background: #f8f9fb;
+            margin: 0 0 0 32px; }
+            .pages_register .R_form .lock_verification .reg_lock_input .field .reg_text .el-input__inner {
+              border: none;
+              display: block;
+              background: #f8f9fb;
+              height: 33px; }
+          .pages_register .R_form .lock_verification .reg_lock_input .field .code_text {
+            width: 40%; }
+          .pages_register .R_form .lock_verification .reg_lock_input .field .click_getCode {
+            text-align: center;
+            color: #f1825e;
+            width: 25%;
+            font-size: 14px;
+            display: line-block;
+            line-height: 30px;
+            font-weight: bold;
+            text-decoration: underline; }
+    .pages_register .R_form .vip_imessage {
+      margin: 75px 0 0 0;
+      overflow: hidden; }
+      .pages_register .R_form .vip_imessage .pages_register_title {
+        text-align: center;
+        font-size: 20px;
+        color: #686868;
+        font-weight: bold;
+        text-indent: 9em; }
+      .pages_register .R_form .vip_imessage .reg_lock_pages {
+        width: 176px; }
+      .pages_register .R_form .vip_imessage .reg_lock_input {
+        width: 69%; }
+        .pages_register .R_form .vip_imessage .reg_lock_input .field {
+          height: 45px;
+          line-height: 45px; }
+          .pages_register .R_form .vip_imessage .reg_lock_input .field .el-radio-group {
+            margin: 0 0 0 32px; }
+          .pages_register .R_form .vip_imessage .reg_lock_input .field .lock_label {
+            width: 18%;
+            color: #686868;
+            font-weight: bold;
+            text-align: right; }
+          .pages_register .R_form .vip_imessage .reg_lock_input .field .reg_text {
+            height: 35px;
+            width: 65%;
+            padding-left: 10px;
+            border: none;
+            background: #f8f9fb;
+            margin: 0 0 0 32px; }
+            .pages_register .R_form .vip_imessage .reg_lock_input .field .reg_text .el-input__inner {
+              border: none;
+              display: block;
+              background: #f8f9fb;
+              height: 33px; }
+            .pages_register .R_form .vip_imessage .reg_lock_input .field .reg_text .el-input--suffix {
+              position: relative; }
+              .pages_register .R_form .vip_imessage .reg_lock_input .field .reg_text .el-input--suffix .el-input__inner {
+                border: none;
+                display: block;
+                background: #f8f9fb;
+                height: 33px; }
+              .pages_register .R_form .vip_imessage .reg_lock_input .field .reg_text .el-input--suffix .el-input__suffix .el-select__caret {
+                position: absolute;
+                top: 0px;
+                right: 0px; }
+    .pages_register .R_form .R_submit {
+      width: 200px;
+      padding: 0 0 0 100px;
+      margin: 50px auto 0; }
+      .pages_register .R_form .R_submit a {
+        color: #c1c1c1;
+        font-size: 14px; }
+      .pages_register .R_form .R_submit .submit {
+        width: 100%;
+        height: 50px;
+        color: #fff;
+        margin: 13px 0 0 0;
+        border-radius: 10px;
+        font-size: 14px;
+        border: 1px solid #f93556;
+        background: #f93556; }
+      .pages_register .R_form .R_submit .el-checkbox__input.is-checked + .el-checkbox__label {
+        color: #686868; }
+      .pages_register .R_form .R_submit .el-checkbox__input.is-checked .el-checkbox__inner, .pages_register .R_form .R_submit .el-checkbox__input.is-indeterminate .el-checkbox__inner {
+        background: #fff;
+        border: 3px solid #f93556;
+        width: 20px;
+        height: 20px; }
+      .pages_register .R_form .R_submit .el-checkbox__inner::after {
+        height: 16px;
+        left: 5px;
+        top: -8px;
+        width: 7px;
+        -webkit-box-sizing: content-box;
+        box-sizing: content-box;
+        content: "";
+        border: 5px solid #f93556;
+        border-left: 0;
+        border-top: 0; }
+
+/* pages_register end */
